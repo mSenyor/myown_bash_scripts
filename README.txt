@@ -4,9 +4,16 @@ hopefully be updated from time to time
 all files names start with the string 'myown_' so i can easily find them when
 i use them as shell commands.
 
-myown_convert_mp4_2_mp3_DELETE.sh - uses 'ffmpeg' to convert mp4 video into an
+myown_convert_mp4_2_mp3_and_DELETE.sh - uses 'ffmpeg' to convert mp4 video into an
 mp3 audio file. then deletes the original mp4 file, and moves on to the next
 mp4 file.
+
+myown_convert_mp4_2_mp3_and_keep.sh - same as the former just keeps the
+original file.
+
+myown_replace_whitespace.sh - takes a file type and replaces the space ' '
+character in all files of that type inside current directory with '_'
+character.
 
 myown_set_sleep.sh - is a countdown script that prompts for hours, minutes,
 and seconds, then uses the 'sleep' command to wait 1 second between each
