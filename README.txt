@@ -22,9 +22,6 @@ and seconds, then uses the 'sleep' command to wait 1 second between each
 count. it is probably not very accurate since it takes more than one second
 for it to do one work cicle.
 
-myown_stop_mp3_song.sh - used to stop the 'myown_play_mp3_song.sh' command.
-should be combined into it then deleted.
-
 myown_suspend_comp.sh - displays a warning for 5 seconds, then puts the
 computer into standby mode.
 
